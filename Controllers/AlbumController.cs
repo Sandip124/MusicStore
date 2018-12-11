@@ -14,9 +14,8 @@ namespace MusicStore.Controllers
 
         public IActionResult Create()
         {
-            //musicstorecontext context = httpcontext.requestservices.getservice(typeof(MusicStore.models.musicstorecontext)) as musicstorecontext;
-
             return View();
         }
+
     }
 }
